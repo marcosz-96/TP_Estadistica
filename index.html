@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Estudiantes</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .tabs { display: flex; cursor: pointer; }
+        .tab { padding: 10px; border: 1px solid #ccc; margin-right: 5px; }
+        .tab-content { display: none; padding: 10px; border: 1px solid #ccc; }
+        .active { display: block; }
+    </style>
+</head>
+<body>
+
+    <h1>Datos de Estudiantes</h1>
+    
+    <div class="tabs">
+        <div class="tab" onclick="showTab('poblacion')">Población completa</div>
+        <div class="tab" onclick="showTab('frecuencias')">Tablas de Frecuencias</div>
+        <div class="tab" onclick="showTab('estadisticos')">Estadísticos</div>
+    </div>
+
+    <div id="poblacion" class="tab-content"></div>
+    <div id="frecuencias" class="tab-content"></div>
+    <div id="estadisticos" class="tab-content"></div>
+ 
+    <script src="script.js"></script>
+
+</body>
+</html>
