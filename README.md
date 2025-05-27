@@ -2,4 +2,4 @@
 Trabajo practico: Tablas de Frecuencias y Estadisticos
 
 ### Integrantes: 
-```Gomez Marco, Lairana Rocío``` 
+```Gomez Marco, Lairana Rocío, Courel Brian``` 
